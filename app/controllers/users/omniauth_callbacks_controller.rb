@@ -6,7 +6,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
   # You should also create an action method in this controller like this:
   def facebook
-  callback_from :facebook
+    callback_from :facebook
   end
 
   def github
@@ -26,10 +26,10 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   def callback_from(provider)
     provider = provider.to_s
 
-    @user = User.find_or_create(request.env["omniauth.auth"])
+    @user = User.find_or_create(request.env['omniauth.auth'])
 
     if @user.persisted?
-      flash[:notice] = "ログインしました"
+      flash[:notice] = 'ログインしました'
       sign_in_and_redirect @user, event: :authentication
     else
       redirect_to new_user_registration_url
