@@ -1,4 +1,6 @@
-# README updated
+# README
+
+people can loign with google account, github account or facebook account. 
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
