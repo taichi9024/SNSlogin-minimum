@@ -1,26 +1,8 @@
-# README
+## snsを使ったログイン
 
-people can loign with google account, github account or facebook account. 
+### 目的
+- API連携への理解を深める
+- deviseの使い方アウトプット
+- deviseとSNS認証を一緒に導入できるのでそのアウトプット
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+###### 現在API無効

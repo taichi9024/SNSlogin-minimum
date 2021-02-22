@@ -64,3 +64,4 @@ gem 'omniauth-google-oauth2'
 gem 'omniauth-twitter'
 
 gem 'rubocop'
+gem "google_drive"
